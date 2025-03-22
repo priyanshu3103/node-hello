@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
-    "build": "zip -r node-hello.zip * .[^.]* -x \"node_modules/*\" \"*.zip\""
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnpapa/node-hello.git"
   },
+  "dependencies": {
+  "react-scripts": "^5.0.1"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
