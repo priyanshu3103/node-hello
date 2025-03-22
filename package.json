@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+    "build": "zip -r node-hello.zip * .[^.]* -x \"node_modules/*\" \"*.zip\""
   },
   "repository": {
     "type": "git",
